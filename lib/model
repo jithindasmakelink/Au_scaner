@@ -1,0 +1,27 @@
+class Transaction {
+  final String date;
+  final String time;
+  final String tokenNo;
+  final String amount;
+
+  Transaction({
+    required this.date,
+    required this.time,
+    required this.tokenNo,
+    required this.amount,
+  });
+}
+
+class CreditNote {
+  final String date;
+  final String cnAmount;
+  final String cashPaid;
+  final String status;
+
+  CreditNote({
+    required this.date,
+    required this.cnAmount,
+    required this.cashPaid,
+    required this.status,
+  });
+}
